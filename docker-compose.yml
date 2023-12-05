@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+   fungi-shroomer:
+      image: muchassak/fungi-shroomer:latest
+      container_name: fungi-shroomer
+      restart: unless-stopped
+      env_file:
+         - .env
+      ports:
+         - 27017:27017

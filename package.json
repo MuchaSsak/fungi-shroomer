@@ -1,0 +1,27 @@
+{
+  "name": "fungi-shroomer",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "commands": "node src/refreshCommands.js",
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^2.0.1",
+    "@distube/soundcloud": "^1.3.3",
+    "@distube/spotify": "^1.5.1",
+    "discord-api-types": "^0.37.61",
+    "discord.js": "^14.13.0",
+    "distube": "^4.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.2.0",
+    "node-fetch": "^3.3.2",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.8",
+    "sodium": "^3.0.2"
+  }
+}
